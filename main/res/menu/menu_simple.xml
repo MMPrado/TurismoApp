@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ActividadPrincipal">
+
+    <item
+        android:id="@+id/itmCabos"
+        android:title="Los Cabos"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itmCancun"
+        android:title="Cancún"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itmVallarta"
+        android:title="Puerto Vallarta"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itmRivera"
+        android:title="Rivera Maya"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/img1"
+        />
+</menu>
